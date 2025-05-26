@@ -43,7 +43,7 @@ namespace MonogameExamples
 
             // Системы рендеринга
             _systems.Add(new LevelRenderSystem(levelID));
-            _systems.Add(new TimerSystem());
+            
             _systems.Add(new AnimationRenderSystem());
 
             // Смерть
